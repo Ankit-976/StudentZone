@@ -87,31 +87,6 @@ body{
     flex-wrap: wrap;
     text-align: center;
 }
-
-/* .sec-1 .search{
-    height: 2.5rem;
-    width: 20rem;
-    display: flex;
-    border: 1px solid gray;
-    border-radius: 13px;
-    justify-content: space-between;
-}
-.sec-1 .search input{
-    padding: 0.5rem 3rem 0.5rem 0.5rem;
-    outline: none;
-    background-color: transparent;
-    border-radius: 13px 0 0 13px;
-    border:0;
-}
-.sec-1 .search button{
-    padding: 0 0.5rem;
-    background-color: rgb(0, 0, 255);
-    border-radius: 13px;
-    border: 0;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-} */
 .pic1{
     height: 230px;
     position: fixed;
