@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(images/background-img.png);
+    background-size: cover;       
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.navbar{
+    display: flex;
+    width: 89vw;
+    margin: 2vh 5.5vw 0 5.5vw;
+    height: 3rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin: 1rem;
+    font-weight: 1000;
+    font-size: 1.9rem;
+}
+.logo a{
+    text-decoration: none;
+    color: blue;
+}
+.menuopt{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-weight: 400;
+    height: 2.5rem;
+}
+.menuopt a{
+    text-decoration: none;
+    color: black;
+}
+.menuopt li{
+    margin: 0 0.3rem;
+    padding: 0.6rem 1.5rem;
+    border-radius: 10px;
+    border: 7px solid transparent;
+    cursor: pointer;
+}
+.menuopt li:hover{
+    background-color: rgba(187, 187, 187, 0.382);
+    transition:1s;
+}
+.menu-logo{
+    display: none;
+    margin: 0.2rem;
+    height: 2rem;
+    width: 2rem;
+    padding: 3px;
+    border-radius: 5px;
+}
+.sec-1{
+    display: flex;
+    width: 87vw;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+.sec-1-left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    gap: 15px;
+    align-items: center;
+}
+.sec-1-left .left-1{
+    display: flex;
+    font-size: 4rem;
+    font-weight: 450;
+    flex-wrap: wrap;
+}
+.sec-1-left .left-2{
+    display: flex;
+    font-size: 1.6rem;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+/* .sec-1 .search{
+    height: 2.5rem;
+    width: 20rem;
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 13px;
+    justify-content: space-between;
+}
+.sec-1 .search input{
+    padding: 0.5rem 3rem 0.5rem 0.5rem;
+    outline: none;
+    background-color: transparent;
+    border-radius: 13px 0 0 13px;
+    border:0;
+}
+.sec-1 .search button{
+    padding: 0 0.5rem;
+    background-color: rgb(0, 0, 255);
+    border-radius: 13px;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+} */
+.pic1{
+    height: 230px;
+    position: fixed;
+    bottom: 0;
+    right: -15px;
+}

@@ -1,0 +1,38 @@
+@media screen and (max-width:750px) {
+    body{
+        background-image: url(images/background-img-mbl.png);
+        background-size: cover;       
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    .menuopt li{
+        display: none;
+    }
+    .menu-logo{
+        display:block;
+    }
+    .sec-1-left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8vh;
+    gap: 15px;
+    align-items: center;
+    }
+    .sec-1-left .left-1{
+    display: flex;
+    font-size: 3.3rem;
+    font-weight: 450;
+    flex-wrap: wrap;
+    }
+    .sec-1-left .left-2{
+    font-size: 1.1rem;
+    text-align: center;
+    }
+    .pic1{
+    height: 180px;
+    position: fixed;
+    bottom: 0;
+    right: -15px;
+    }
+}
