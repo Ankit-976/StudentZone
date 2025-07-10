@@ -1,1 +1,1 @@
-this is a project for student by students and from students
+This is a project for Student by Students and from Students
