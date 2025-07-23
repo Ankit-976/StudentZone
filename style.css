@@ -81,6 +81,10 @@ body {
     text-align: center;
 }
 
+.dropdown{
+    position: absolute;
+}
+
 .hidden {
     opacity: 0;
     visibility: hidden;
