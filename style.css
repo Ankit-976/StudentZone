@@ -81,8 +81,9 @@ body {
     text-align: center;
 }
 
-.hidden{
-    display: none;
+.hidden {
+    opacity: 0;
+    visibility: hidden;
 }
 
 .sec-1-left {
