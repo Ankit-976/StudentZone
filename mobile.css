@@ -1,38 +1,109 @@
 @media screen and (max-width:750px) {
-    body{
+    body {
         background-image: url(images/background-img-mbl.png);
-        background-size: cover;       
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
         background-attachment: fixed;
     }
-    .menuopt li{
+
+    .menuopt li {
         display: none;
     }
-    .menu-logo{
-        display:block;
+
+    .menu-logo {
+        display: block;
     }
-    .sec-1-left{
-    display: flex;
-    flex-direction: column;
-    margin-top: 8vh;
-    gap: 15px;
-    align-items: center;
+
+    .sec-1-left {
+        display: flex;
+        flex-direction: column;
+        margin-top: 8vh;
+        gap: 15px;
+        align-items: center;
     }
-    .sec-1-left .left-1{
-    display: flex;
-    font-size: 3.3rem;
-    font-weight: 450;
-    flex-wrap: wrap;
+
+    .sec-1-left .left-1 {
+        display: flex;
+        font-size: 3.3rem;
+        font-weight: 450;
+        flex-wrap: wrap;
     }
-    .sec-1-left .left-2{
-    font-size: 1.1rem;
-    text-align: center;
+
+    .sec-1-left .left-2 {
+        font-size: 1.1rem;
+        text-align: center;
     }
-    .pic1{
-    height: 100px;
-    position: fixed;
-    bottom: 0;
-    right: -15px;
+
+    .pic1 {
+        height: 100px;
+        position: fixed;
+        bottom: 0;
+        right: -15px;
     }
+
+
+    .dropdown {
+        background-color: transparent;
+        z-index: 25;
+        position: absolute;
+        top: 0.8rem;
+        right: 0.8rem;
+        height: 61vh;
+        width: 20vw;
+        padding: 0.9rem;
+        border-radius: 10px;
+        backdrop-filter: blur(15px);
+    }
+
+    .dropdown .menu_close img {
+        position: relative;
+        right: -45px;
+    }
+
+    .m-menu {
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-top: 0.4rem;
+    }
+
+    .m-menu a {
+        text-decoration: none;
+    }
+
+    .m-menu a li {
+        list-style: none;
+        background-color: rgba(187, 187, 187, 0.382);
+        padding: 0.5rem;
+        width: 4.8rem;
+        border-radius: 10px;
+        text-align: center;
+        color: black;
+        font-weight: 460;
+    }
+
+    .sub-logo {
+        height: 2.5rem;
+        width: 3rem;
+    }
+
+    .feat-logo {
+        height: 2.9rem;
+        width: 3rem;
+    }
+
+    .hidden {
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.5s ease, visibility 0.5s ease;
+    }
+
+    .visible {
+        opacity: 1;
+        visibility: visible;
+        transition: opacity 0.5s ease, visibility 0.5s ease;
+    }
+
 }

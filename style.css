@@ -1,20 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     background-image: url(images/background-img.png);
-    background-size: cover;       
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
 }
-.navbar{
+
+.navbar {
     display: flex;
     width: 89vw;
     margin: 2vh 5.5vw 0 5.5vw;
@@ -22,38 +25,45 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.logo{
+
+.logo {
     margin: 1rem;
     font-weight: 1000;
     font-size: 1.9rem;
 }
-.logo a{
+
+.logo a {
     text-decoration: none;
     color: blue;
 }
-.menuopt{
+
+.menuopt {
     display: flex;
     align-items: center;
     list-style: none;
     font-weight: 400;
     height: 2.5rem;
 }
-.menuopt a{
+
+.menuopt a {
     text-decoration: none;
     color: black;
 }
-.menuopt li{
+
+.menuopt li {
     margin: 0 0.3rem;
     padding: 0.6rem 1.5rem;
     border-radius: 10px;
     border: 7px solid transparent;
     cursor: pointer;
 }
-.menuopt li:hover{
+
+.menuopt li:hover {
     background-color: rgba(187, 187, 187, 0.382);
-    transition:1s;
+    transition: 1s;
 }
-.menu-logo{
+
+.menu-logo {
     display: none;
     margin: 0.2rem;
     height: 2rem;
@@ -61,33 +71,43 @@ body{
     padding: 3px;
     border-radius: 5px;
 }
-.sec-1{
+
+
+.sec-1 {
     display: flex;
     width: 87vw;
     margin: auto;
     justify-content: center;
     text-align: center;
 }
-.sec-1-left{
+
+.hidden{
+    display: none;
+}
+
+.sec-1-left {
     display: flex;
     flex-direction: column;
     margin-top: 20vh;
     gap: 15px;
     align-items: center;
 }
-.sec-1-left .left-1{
+
+.sec-1-left .left-1 {
     display: flex;
     font-size: 4rem;
     font-weight: 450;
     flex-wrap: wrap;
 }
-.sec-1-left .left-2{
+
+.sec-1-left .left-2 {
     display: flex;
     font-size: 1.6rem;
     flex-wrap: wrap;
     text-align: center;
 }
-.pic1{
+
+.pic1 {
     height: 230px;
     position: fixed;
     bottom: 0;

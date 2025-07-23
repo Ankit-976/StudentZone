@@ -1,56 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StudentZone</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="https://sets.hugeicons.com/YOUR-SET-ID.css" crossorigin="anonymous">
 </head>
+
 <body>
+    <!-- Header Section  -->
     <header id="home">
         <nav class="navbar">
             <div class="logo">
                 <a href="index.html" target="_blank">
-                   StudentZone
+                    StudentZone
                 </a>
             </div>
             <div class="menuopt">
-                <a href="#home"><li>Home</li></a>
-                <a href=""><li>Subjects</li></a>
-                <a href=""><li>About</li></a>
-                <a href=""><li>Contacts</li></a>
-                <a href=""><li>Features</li></a>
-                <img src="images/menu-line.png" alt="menu" class="menu-logo">
+                <a href="#home">
+                    <li>Home</li>
+                </a>
+                <a href="">
+                    <li>Subjects</li>
+                </a>
+                <a href="">
+                    <li>About</li>
+                </a>
+                <a href="">
+                    <li>Contacts</li>
+                </a>
+                <a href="">
+                    <li>Features</li>
+                </a>
+                <img src="images/menu-line.png" alt="menu"  class="menu-logo" onclick="dropDown('m-drop')">
             </div>
         </nav>
     </header>
+
+    <!-- Mobile dropdown section  -->
+    <div class="dropdown hidden" id="m-drop">
+        <div class="menu_close" >
+            <img src="https://cdn.hugeicons.com/icons/cancel-01-stroke-rounded.svg?v=2.0" alt="Close"
+                width="30" height="30" onclick="dropDown('m-drop')">
+        </div>
+        <div class="m-menu">
+            <a href="">
+                <li><img src="https://cdn.hugeicons.com/icons/home-02-stroke-rounded.svg?v=2.0" alt="Home" width="27" height="27" title="Home"></li>
+            </a>
+            <a href="">
+                <li><img src="images/subject.png" alt="Subjects" class="sub-logo" title="Subjects"></li>
+            </a>
+            <a href="">
+                <li><img src="https://cdn.hugeicons.com/icons/information-square-stroke-rounded.svg?v=2.0" alt="About" width="32" height="32" title="About"></li>
+            </a>
+            <a href="">
+                <li><img src="https://cdn3.iconfinder.com/data/icons/customer-support-34/64/contact-options-communication-service-support-512.png" jsaction="" class="cont-logo" style="max-width: 512px; width: 35px; height: 35px; margin: 0px; " alt="Contacts" jsname="kn3ccd" title="Contacts"></li>
+            </a>
+            <a href="">
+                <li><img src="images/features.png" alt="Features" class="feat-logo" title="Features"></li>
+            </a>
+        </div>
+    </div>
+    <!-- Hero Section  -->
     <section class="sec-1">
         <div class="sec-1-left">
-            <div class="left-1">Find All Your Study Materials <br>in  One Place!</div>
+            <div class="left-1">Find All Your Study Materials <br>in One Place!</div>
             <div class="left-2">Download PDFs, view previous year questions,<br> assignments & more.</div>
         </div>
         <div class="sec-1-right">
-             <img src="images/pic1.png" alt="Side-pic" class="pic1">
+            <img src="images/pic1.png" alt="Side-pic" class="pic1">
         </div>
     </section>
+    <!-- AboutSection  -->
     <section id="about">
         <h1>About Us</h1>
-        <p>We are two college students passionate about helping our peers succeed. This platform is built for students, by students — to make access to study materials, notes, and assignments simple, fast, and organized.</p>
-        <p>Whether you're preparing for exams, looking for previous year papers, or just want well-structured notes, we've got your back.</p>
+        <p>We are two college students passionate about helping our peers succeed. This platform is built for students,
+            by students — to make access to study materials, notes, and assignments simple, fast, and organized.</p>
+        <p>Whether you're preparing for exams, looking for previous year papers, or just want well-structured notes,
+            we've got your back.</p>
     </section>
+    <!-- Features Section  -->
     <section id="features">
         <h1>Key Features</h1>
         <ul>
-            <li><strong>📚 Downloadable Notes:</strong> Subject-wise, well-organized notes to help you study smarter.</li>
+            <li><strong>📚 Downloadable Notes:</strong> Subject-wise, well-organized notes to help you study smarter.
+            </li>
             <li><strong>📝 Assignments:</strong> Access and submit assignments easily with proper deadlines.</li>
             <li><strong>📅 Academic Calendar:</strong> Stay updated with test dates, project deadlines, and events.</li>
             <li><strong>💬 Community Chat:</strong> Discuss doubts, share tips, and connect with your classmates.</li>
             <li><strong>📤 Contribution Option:</strong> Upload your own notes and help others too!</li>
         </ul>
     </section>
+    <script src="script.js"></script>
 </body>
+
 </html>
